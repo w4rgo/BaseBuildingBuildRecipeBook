@@ -5,3 +5,5 @@
 http://i.imgur.com/mfp4iZF.jpg
 
 http://i.imgur.com/RVEEhm7.jpg
+
+This is intended to use with: https://github.com/Daimyo21/BaseBuilding-DayZ
