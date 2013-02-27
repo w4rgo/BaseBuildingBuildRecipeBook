@@ -6,7 +6,7 @@ refresh_build_recipe_dialog = compile preprocessFileLineNumbers "buildRecipeBook
 refresh_build_recipe_list_dialog = compile preprocessFileLineNumbers "buildRecipeBook\refresh_build_recipe_list_dialog.sqf";
 
 _null = [] execVM "tweaks\build_list.sqf";
-_null = [] execVM "buildRecipeBook\create_build_recipe_list.sqf";
+//_null = [] execVM "buildRecipeBook\create_build_recipe_list.sqf";
 
 
 

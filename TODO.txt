@@ -1,0 +1,6 @@
+Daimyo: so i wanted to ask, could you add in chance to fail for removals of objects?
+
+
+Daimyo: sorry 30% percent fail not success
+Daimyo: medWait = 70% fail for removal, 60% to lose toolbox
+Daimyo: longWait = 95% fail for removal, 70% to lose toolbox

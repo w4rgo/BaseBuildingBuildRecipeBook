@@ -78,12 +78,28 @@ _medWait=false;
 _longWait=false;
 _medWait=_restrictions select 5;
 _longWait=_restrictions select 6;
+
+
+_removable=false;
+_removable=_restrictions select 10;
+
+_chance ="";
+if (_removable) then {
+    _chance="Chance: 30% (70% lt)"
+};
 _timer="10 s";
 if(_medWait) then {
     _timer="20 s";
+    if (_removable) then {
+        _chance="Chance: 70% (60% lt)"
+    };
+ 
 };
 if(_longWait) then {
     _timer="30 s";
+    if (_removable) then {
+        _chance="Chance: 95% (70% lt)"
+    };
 } ;
 
 _inBuilding=false;
@@ -95,8 +111,7 @@ _road=_restrictions select 8;
 _inTown=false;
 _inTown=_restrictions select 9;
 
-_removable=false;
-_removable=_restrictions select 10;
+
 //--------------------------------------------
 
 
@@ -136,6 +151,7 @@ if (!_result) then {
     (Build_Recipe_Dialog displayCtrl 1012) ctrlSetText format["%1",_inTown];
     (Build_Recipe_Dialog displayCtrl 1011) ctrlSetText format["%1",_road];
     (Build_Recipe_Dialog displayCtrl 1014) ctrlSetText format["%1",_inBuilding];
+    (Build_Recipe_Dialog displayCtrl 1018) ctrlSetText format["%1",_chance];
 };
 
 
