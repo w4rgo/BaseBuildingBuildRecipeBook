@@ -53,7 +53,7 @@ class Build_Recipe_Dialog
             h = 0.0315319 * safezoneH;
             tooltip = "Tank Trap";
         };
-        class SandImage: RscPicture
+        class WireImage: RscPicture
         {
             idc = 1202;
             //text = "buildRecipeBook\images\wirefencekit.paa";
@@ -64,7 +64,7 @@ class Build_Recipe_Dialog
             h = 0.0315319 * safezoneH;
             tooltip = "Wire Fence";
         };
-        class WireImage: RscPicture
+        class SandImage: RscPicture
         {
             idc = 1203;
             //text = "buildRecipeBook\images\sandbag.paa";
