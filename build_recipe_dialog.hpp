@@ -46,7 +46,7 @@ class Build_Recipe_Dialog
         {
             idc = 1201;
             //text = "buildRecipeBook\images\tanktrap.paa"
-            text = "\z\addons\dayz_equip\textures\equip_tanktrap_kit_CA.paa"
+            text = "dayz_equip\textures\equip_tanktrap_kit_CA.paa"
             x = 0.313086 * safezoneW + safezoneX;
             y = 0.334968 * safezoneH + safezoneY;
             w = 0.019375 * safezoneW;
@@ -57,7 +57,7 @@ class Build_Recipe_Dialog
         {
             idc = 1202;
             //text = "buildRecipeBook\images\wirefencekit.paa";
-            text = "\z\addons\dayz_equip\textures\equip_tanktrap_kit_CA.paa"
+            text = "dayz_equip\textures\equip_wirefencekit_kit_CA.paa"
             x = 0.313086 * safezoneW + safezoneX;
             y = 0.389979 * safezoneH + safezoneY;
             w = 0.019375 * safezoneW;
@@ -67,8 +67,8 @@ class Build_Recipe_Dialog
         class WireImage: RscPicture
         {
             idc = 1203;
-            text = "\z\addons\dayz_equip\textures\equip_tanktrap_kit_CA.paa"
-            //text = "buildRecipeBook\images\equip_sandbag_ca.paa";
+            //text = "buildRecipeBook\images\sandbag.paa";
+            text = "dayz_equip\textures\equip_sandbag_kit_CA.paa"
             x = 0.313086 * safezoneW + safezoneX;
             y = 0.444989 * safezoneH + safezoneY;
             w = 0.019375 * safezoneW;
@@ -79,8 +79,8 @@ class Build_Recipe_Dialog
         class LogImage: RscPicture
         {
             idc = 1204;
-            text = "\z\addons\dayz_equip\textures\equip_woodpile_CA.paa"
             //text = "buildRecipeBook\images\wood.paa";
+            text = "dayz_equip\textures\equip_woodpile_CA.paa"
             x = 0.313086 * safezoneW + safezoneX;
             y = 0.5 * safezoneH + safezoneY;
             w = 0.019375 * safezoneW;
@@ -90,8 +90,8 @@ class Build_Recipe_Dialog
         class ScrapImage: RscPicture
         {
             idc = 1205;
-            text = "\z\addons\dayz_equip\textures\equip_genericparts_CA.paa"
             //text = "buildRecipeBook\images\scrapmetal.paa";
+            text = "dayz_equip\textures\equip_genericparts_CA.paa"
             x = 0.313086 * safezoneW + safezoneX;
             y = 0.555011 * safezoneH + safezoneY;
             w = 0.019375 * safezoneW;

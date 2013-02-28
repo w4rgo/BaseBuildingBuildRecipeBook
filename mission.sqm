@@ -35,8 +35,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3686.8284,19,3613.5032};
-					id=0;
+					position[]={3694.5857,19,3611.8862};
+					id=1;
 					side="WEST";
 					vehicle="USMC_Soldier";
 					player="PLAYER COMMANDER";
@@ -54,7 +54,7 @@ class Mission
 				class Item0
 				{
 					position[]={3739.1919,19,3606.0657};
-					id=1;
+					id=0;
 					side="LOGIC";
 					vehicle="FunctionsManager";
 					leader=1;
